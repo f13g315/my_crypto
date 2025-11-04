@@ -7,6 +7,10 @@ REQUIRE_IV_NONCE = ["CBC", "CTR", "CFB", "OFB"]
 REQUIRE_PAD = ["ECB", "CBC"] 
 MODES = {"ECB": AES.MODE_ECB, "CBC": AES.MODE_CBC, "CTR": AES.MODE_CTR, "CFB": AES.MODE_CFB, "OFB": AES.MODE_OFB,} 
 
+''' 
+Created by f13g315
+Published 3 Nov 2025
+'''
 
 def cipher_choice():
     while True:
@@ -220,3 +224,4 @@ def main():
         
 if __name__ == "__main__":
     main()
+
